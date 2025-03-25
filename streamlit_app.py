@@ -107,7 +107,8 @@ with st.sidebar:
 
     region_options = ['Todas'] + sorted(df['Regiao'].unique().tolist())
     selected_region = st.selectbox(
-        label="",
+        label="_",
+        label_visibility="invisible",
         options=region_options,
         index=0,
         label_visibility="collapsed"
