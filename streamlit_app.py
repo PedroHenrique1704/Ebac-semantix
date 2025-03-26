@@ -110,8 +110,7 @@ with st.sidebar:
         label="_",
         label_visibility="invisible",
         options=region_options,
-        index=0,
-        label_visibility="collapsed"
+        index=0
     )
 
 # ========== VISUALIZAÇÃO DOS DADOS ==========
