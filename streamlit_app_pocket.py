@@ -98,7 +98,7 @@ st.markdown("""
 </h1>
 """, unsafe_allow_html=True)
 
-st.markdown('*Versão pocket: Contém apenas 30% do dataframe original, clique [aqui](https://ebac-semantix.onrender.com/) para ir ao dataframe completo*')
+st.markdown('*Versão pocket: Contém apenas 30% do dataframe original (sortido aleatoriamente), clique [aqui](https://ebac-semantix.onrender.com/) para ir ao dataframe completo*')
 
 
 

@@ -237,7 +237,7 @@ with st.expander("🔧 Filtros Avançados", expanded=True):
 
     with col8:
         # Slider para Idade_Imovel
-        st.markdown("Caso a aplicação esteja lenta é recomendado:\n* **Selecionar uma região** | **Filtrar por Valorização** | **Fazer buscas mais específicas**\n* Fazer um café ☕\n* Tentar a versão [Pocket]() (30% do dataframe)")
+        st.markdown("Caso a aplicação esteja lenta é recomendado:\n* **Selecionar uma região** | **Filtrar por Valorização** | **Fazer buscas mais específicas**\n* Fazer um café ☕\n* Tentar a versão [Pocket](https://ebac-semantix-1.onrender.com/) (30% do dataframe)")
         
     
     # Linha 5: Checkboxes para valorização
