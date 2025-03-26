@@ -362,7 +362,7 @@ if 'Latitude' in map_data.columns and 'Longitude' in map_data.columns:
                 
                 folium.CircleMarker(
                     location=[row['latitude'], row['longitude']],
-                    radius=3,
+                    radius=5,
                     color=row['color'],
                     fill=True,
                     fill_color=row['color'],
