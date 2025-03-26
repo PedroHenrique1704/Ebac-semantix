@@ -16,7 +16,14 @@ Análise completa do mercado imobiliário residencial de Melbourne (2016-2018) c
 
 ### 🌐 Versão Online (Hospedada)
 Aplicação disponível em:  
-👉 [https://ebac-semantix.onrender.com/](https://ebac-semantix.onrender.com/)  
+
+* Versão completa (recomendado caso vá baixar e utilizar em sua máquina)
+  
+👉 [Streamlit Completo](https://ebac-semantix.onrender.com/)  
+  <br>
+* Versão Pocket (30% dos dados sortidos aleatóriamente) (mais rápido, menos confiavel)
+  
+👉 [Streamlit Pocket](https://ebac-semantix-1.onrender.com/)
 
 *Observações técnicas*:
 - Tempo de carregamento inicial: 30-60 segundos
