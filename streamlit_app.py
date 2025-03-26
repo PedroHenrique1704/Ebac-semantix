@@ -108,7 +108,7 @@ with st.sidebar:
     region_options = ['Todas'] + sorted(df['Regiao'].unique().tolist())
     selected_region = st.selectbox(
         label="_",
-        label_visibility="invisible",
+        label_visibility="hidden",
         options=region_options,
         index=0
     )
@@ -362,7 +362,7 @@ if 'Latitude' in map_data.columns and 'Longitude' in map_data.columns:
                 
                 folium.CircleMarker(
                     location=[row['latitude'], row['longitude']],
-                    radius=5,
+                    radius=3,
                     color=row['color'],
                     fill=True,
                     fill_color=row['color'],
